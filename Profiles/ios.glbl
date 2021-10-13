@@ -19,4 +19,9 @@
       <initValue>1</initValue>
       <name>jobNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'32T'</initValue>
+      <name>env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

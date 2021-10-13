@@ -24,15 +24,11 @@ import static com.ing.INGUtils.*
 
 PerfectoKeywords.startExistingApplication(GlobalVariable.appId)
 
-//if (getPlatformName().equalsIgnoreCase('ios')) {
-//    if (Mobile.waitForElementPresent(getTestObject('loginpage/login_devSDK_txt'), 10)) {
-//        Mobile.tap(getTestObject('loginpage/login_devSDK_OK'), 10)
-//    }
-//}
 
 if (!(Mobile.waitForElementPresent(getTestObject('loginpage/login_register_title'), 10))) {
-	setupAccount("12312");
-} else {
+	setupAccountAndroid("12312");
+} 
+else {
     PerfectoKeywords.stepStart('Perform Login')
 
     INGUtils.EnterPin("12312")

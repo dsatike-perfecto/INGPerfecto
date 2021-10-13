@@ -5,3 +5,4 @@ settings/external/execution/
 .cache/
 settings/external/com.kms.katalon.keyword.Perfecto-keywords.properties
 settings/internal/com.kms.katalon.core.webui.remote.properties
+settings/internal/com.kms.katalon.composer.testcase.properties

@@ -29,7 +29,7 @@ if (getPlatformName().equalsIgnoreCase('ios')) {
 }
 
 if (!(Mobile.waitForElementPresent(getTestObject('loginpage/login_register_title'), 10))) {
-	setupAccount("12312");
+	setupAccountiOS("12312");
 } else {
 	PerfectoKeywords.stepStart('Perform Login')
 
